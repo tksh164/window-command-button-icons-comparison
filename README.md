@@ -1,1 +1,1 @@
-# windowchrome-icon-lab
+# Window command button icons comparison
