@@ -18,6 +18,7 @@
             <RowDefinition Height="64"/>
             <RowDefinition Height="64"/>
             <RowDefinition Height="64"/>
+            <RowDefinition Height="64"/>
         </Grid.RowDefinitions>
 
         <!--
@@ -26,8 +27,8 @@
         -->
         <TextBlock Grid.Row="0" Grid.Column="0" Margin="8,16,16,16" VerticalAlignment="Center" Text="Segoe Fluent Icons font (Windows 11)"/>
         <Button Grid.Row="0" Grid.Column="1" Margin="8" FontFamily="Segoe Fluent Icons" FontSize="10" Content="&#xe921;"/>
-        <Button Grid.Row="0" Grid.Column="2" Margin="8" FontFamily="Segoe Fluent Icons" FontSize="10" Content="&#xe923;"/>
-        <Button Grid.Row="0" Grid.Column="3" Margin="8" FontFamily="Segoe Fluent Icons" FontSize="10" Content="&#xe922;"/>
+        <Button Grid.Row="0" Grid.Column="2" Margin="8" FontFamily="Segoe Fluent Icons" FontSize="10" Content="&#xe922;"/>
+        <Button Grid.Row="0" Grid.Column="3" Margin="8" FontFamily="Segoe Fluent Icons" FontSize="10" Content="&#xe923;"/>
         <Button Grid.Row="0" Grid.Column="4" Margin="8" FontFamily="Segoe Fluent Icons" FontSize="10" Content="&#xe8bb;"/>
 
         <!--
@@ -35,18 +36,27 @@
             https://docs.microsoft.com/en-us/windows/apps/design/style/segoe-ui-symbol-font
         -->
         <TextBlock Grid.Row="1" Grid.Column="0" Margin="8,16,16,16" VerticalAlignment="Center" Text="Segoe MDL2 Assets font (Windows 10)"/>
-        <Button Grid.Row="1" Grid.Column="1" Margin="8" FontFamily="Segoe MDL2 Assets" Content="&#xe921;"/>
-        <Button Grid.Row="1" Grid.Column="2" Margin="8" FontFamily="Segoe MDL2 Assets" Content="&#xe923;"/>
-        <Button Grid.Row="1" Grid.Column="3" Margin="8" FontFamily="Segoe MDL2 Assets" Content="&#xe922;"/>
-        <Button Grid.Row="1" Grid.Column="4" Margin="8" FontFamily="Segoe MDL2 Assets" Content="&#xe8bb;"/>
+        <Button Grid.Row="1" Grid.Column="1" Margin="8" FontFamily="Segoe MDL2 Assets" Content="&#xe921;"/> <!-- &#xE949; -->
+        <Button Grid.Row="1" Grid.Column="2" Margin="8" FontFamily="Segoe MDL2 Assets" Content="&#xe922;"/> <!-- &#xE739; -->
+        <Button Grid.Row="1" Grid.Column="3" Margin="8" FontFamily="Segoe MDL2 Assets" Content="&#xe923;"/>
+        <Button Grid.Row="1" Grid.Column="4" Margin="8" FontFamily="Segoe MDL2 Assets" Content="&#xe8bb;"/> <!-- &#xE106; -->
 
         <!--
             Segoe UI Symbol font
         -->
         <TextBlock Grid.Row="2" Grid.Column="0" Margin="8,16,16,16" VerticalAlignment="Center" Text="Segoe UI Symbol font (Windows 8/8.1)"/>
         <Button Grid.Row="2" Grid.Column="1" Margin="8" FontFamily="Segoe UI Symbol" Content="&#x2581;"/>
-        <Button Grid.Row="2" Grid.Column="2" Margin="8" FontFamily="Segoe UI Symbol" Content="?"/>
-        <Button Grid.Row="2" Grid.Column="3" Margin="8" FontFamily="Segoe UI Symbol" Content="&#xe003;"/>
+        <Button Grid.Row="2" Grid.Column="2" Margin="8" FontFamily="Segoe UI Symbol" Content="&#xe003;"/>
+        <Button Grid.Row="2" Grid.Column="3" Margin="8" FontFamily="Segoe UI Symbol" Content="?"/>
         <Button Grid.Row="2" Grid.Column="4" Margin="8" FontFamily="Segoe UI Symbol" Content="&#xe0a4;"/>
+
+        <!--
+            Marlett font
+        -->
+        <TextBlock Grid.Row="6" Grid.Column="0" Margin="8,16,16,16" VerticalAlignment="Center" Text="Marlett font (Windows 95?)"/>
+        <Button Grid.Row="3" Grid.Column="1" Margin="8" FontFamily="Marlett" Content="&#x0030;"/>
+        <Button Grid.Row="4" Grid.Column="2" Margin="8" FontFamily="Marlett" Content="&#x0031;"/>
+        <Button Grid.Row="5" Grid.Column="3" Margin="8" FontFamily="Marlett" Content="&#x0032;"/>
+        <Button Grid.Row="6" Grid.Column="4" Margin="8" FontFamily="Marlett" Content="&#x0072;"/>
     </Grid>
 </Window>
